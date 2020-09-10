@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "dialect": "SQLite",
+            "name": "sqlite-bookshop",
+            "database": "bookshop/bookshop.db",
+            "isActive": false,
+            "isConnected": false
+        }
+    ]
+}
