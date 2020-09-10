@@ -21,6 +21,10 @@ entity Magazines : Products {
 entity Authors : managed {
     key ID : Integer;
     name : String(111);
+    dateOfBirth  : Date;
+    dateOfDeath  : Date;
+    placeOfBirth : String;
+    placeOfDeath : String;
     books : Association to many Books on books.author = $self;
 }
 
