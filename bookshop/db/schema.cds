@@ -13,6 +13,7 @@ entity Books : Products {
     currency : Currency;*/ //Se agrego ahora desde products
 }
 
+
 entity Magazines : Products {
     publisher : String
 }
